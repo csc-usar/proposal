@@ -13,7 +13,7 @@ cd ../build/usar/ || exit
 find ./* ! -name "proposal.pdf" -delete
 
 # Build Preview Images
-pdftoppm report.pdf preview -png
+pdftoppm proposal.pdf preview -png
 
 clear_image_cache
 update_deployment success
