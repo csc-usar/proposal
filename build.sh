@@ -5,6 +5,8 @@ update_deployment in_progress "https://pdf.sujal.dev/usar/proposal.pdf"
 mkdir -p ./build/usar/
 cd src/ || exit
 pdflatex -interaction=nonstopmode -output-format=pdf -output-directory=../build/usar/ ./proposal.tex
+# Contents page doesn't seem to build properly without compiling a second time.
+pdflatex -interaction=nonstopmode -output-format=pdf -output-directory=../build/usar/ ./proposal.tex
 cd ../build/usar/ || exit
 
 # Clean up build files
