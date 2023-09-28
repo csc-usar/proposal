@@ -2,7 +2,7 @@
 %! Date = 9/25/23
 
 % Preamble
-\documentclass[11pt,twocolumn]{book}
+\documentclass[11pt,twocolumn,oneside]{book}
 
 \title{\textbf{Proposal for the Establishment of CSSAC: \\ Computer Science \& Systems Administration Club}}
 \author{Sujal Singh \\ University School of Automation \& Robotics}
@@ -14,6 +14,14 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[a4paper,left=2cm,right=2cm,top=3cm,bottom=3cm]{geometry}
+\usepackage[
+    pdftitle={CSSAC Proposal},
+    pdfsubject={CSSAC Proposal},
+    pdfauthor={Sujal Singh},
+    pdfdisplaydoctitle,
+    hidelinks,
+]{hyperref}
+\usepackage{color}
 
 % Document
 \begin{document}
@@ -21,7 +29,7 @@
     \tableofcontents
 
 
-    \chapter{Introduction}\label{ch:introduction}
+    \chapter{Introduction: The What and Why}\label{ch:introduction}
 
 
     \section{Abstract}\label{sec:abstract}
@@ -36,5 +44,16 @@
 
 
     \section{Vision}\label{sec:vision}
-    \lipsum[1-8]
+    The primary goal of CSSAC will be to cultivate a community of technically competent members, who possess a strong
+    theoretical foundation in computer science but also have the ability to practically apply that knowledge to
+    real-world problems.\ After all, we're soon to be engineers.
+    CSSAC places no emphasis on tasks aimed solely at securing better job prospects, but only on the goal of
+    utilizing our time at the university to become better engineers, and yet it'll allow CSSAC members to distinguish
+    themselves from others in a pool of equally talented candidates.\ CSSAC also strives to promote
+    \href{https://wikipedia.org/wiki/Hacker_culture}{\color{blue}\underline{hacker culture}} (not to be confused with
+    cracker) throughout the university.
+    In practical terms, this translates into having two subteams (not necessarily mutually exclusive), as implied by the
+    name of the club.\ These subteams will undertake two different sets of problems described in their respective
+    sections, one dealing with mostly abstract problems and the other applying the learnings from the aforementioned
+    team to practical purposes with fruitful outcomes.
 \end{document}
