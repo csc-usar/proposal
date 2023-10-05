@@ -53,3 +53,49 @@ raid cards, hard drives, warranty documents, hardware projects by the CS team, e
 room, it will also be the place where the sysadmins will administer the servers and thus this room will require around
 2--4 computers.\ The reason to have two separate rooms instead of sharing a common room is due to the fact that servers
 are loud and long term exposure to such noise can cause hearing loss.
+
+%----------------------------------------------------------------------------------------------------------------------%
+
+\begin{table*}[t]
+    \caption{Price List}
+    \label{table:price-list}
+    \begin{tblr}{colspec={|X[2]|X|}, hlines}
+        \textbf{Component}                            & \textbf{Price (INR)} \\
+        Dell Poweredge R820 (32GB DDR3, 4xE5-4620 v2) & 88,499               \\
+        Dell Poweredge R730 (64GB DDR4, 2xE5-2680 v3) & 100,499              \\
+        Dell Poweredge R710 (32GB DDR4, 2xX5650)      & 39,435               \\
+        Intel Xeon E5-4650 V2 Processor               & 4,999                \\
+        Intel Xeon E5-2696 V4 Processor               & 25,960               \\
+        Any 24--48 port managed network switch        & 20,000               \\
+        Any 42u Server Rack                           & 50,000               \\
+        Any >3000VA UPS                               & 60,000               \\
+    \end{tblr}
+\end{table*}
+
+%----------------------------------------------------------------------------------------------------------------------%
+
+\subsection{Budget}\label{subsec:budget}
+To estimate a budget, table~\ref{table:price-list} lists shortlisted hardware and an estimate as to what they might
+cost, prices are sourced from the website \url{serverbasket.com}
+\\
+I would strongly recommend at least 2 physical servers for reasons such as redundancy and isolation but mostly
+convenience.\ The Dell R730 is a newer generation server compared to the R820 and supports DDR4 memory and newer
+generation processors.\ The R820 only supports DDR3 memory and relatively older processors, but it offers 4 CPU sockets.
+Either one of these servers is suitable to act as our primary server but the R730 would be my choice to save
+electricity.\ A cheaper R710 could be used to virtualize the firewall, running the firewall on physically separate
+hardware offers convenience while experimenting with the primary server.\ A dedicated firewall device could also be
+considered.
+\\\\
+All that said, a budget of about \textbf{\large3--4 Lakh INR} is to be expected for the following items:
+\begin{itemize}
+    \item Dell Poweredge R730 (128GB DDR4, 2xE5-2696 v4)
+    \item Dell Poweredge R710 (32GB DDR4, 2xX5650)
+    \item 2x8TB SATA HDD budget upto 36,000 INR
+    \item 24/48 port network switch budget upto 20,000 INR
+    \item 42u server rack budget upto 50,000 INR
+    \item UPS budget upto 60,000 INR
+\end{itemize}
+\\
+This is by no means the final budget, instead it offers a ballpark estimation to allow the reader to decide whether to
+accept this proposal or not.\ If the proposal is accepted, I can start requesting quotes from various vendors on
+behalf of the university both online and offline (Nehru Place market) and prepare a proper budget.
