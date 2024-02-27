@@ -1,5 +1,5 @@
 create_deployment
-update_deployment in_progress "https://cssac.sujal.dev"
+update_deployment in_progress "https://csc.sujal.dev"
 
 # Build PDF
 mkdir -p ./build/usar/
